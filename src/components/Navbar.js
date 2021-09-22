@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../components/logo.png";
-
+import {fontAwsomeIcon} from '@fortawesome/react-fontawesome'
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">

@@ -2,6 +2,9 @@
 
 :root {
   --primary-white: #fff;
+  --primary-red: rgb(189, 5, 5);
+  --primary-dark: rgb(36, 34, 34); 
+
 }
 
 body {
@@ -27,6 +30,7 @@ nav ul li {
   margin-right: .75rem;
   margin-left: .75rem;
   color: var(--primary-white) !important;
+  border-top: .1875rem solid var(--primary-dark);
   
 }
 
@@ -36,4 +40,10 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li >
+.navbar-nav > li > a.active, .navbar-nav > li > a:active:focus {
+  border-top:.1875rem solid var(--primary-red);
+}
+
+.navbar-nav > li > a: hover {
+  border-top:.1875rem solid var(--primary-red);
+}
